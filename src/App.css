@@ -1,0 +1,69 @@
+#root {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  text-align: center;
+}
+
+table thead tr th {
+  color: white;
+  background-color: #1c6fdc;
+  padding: 5px 20px;
+}
+
+table thead tr th:first-child {
+  border-top-left-radius: 5px;
+}
+
+table thead tr th:last-child {
+  border-top-right-radius: 5px;
+}
+
+table tbody {
+  background-color: #a7cdff;
+  color: black;
+}
+
+table tbody tr td {
+  padding: 3px 15px;
+}
+
+table tbody tr:last-child td:first-child {
+  border-bottom-left-radius: 5px;
+}
+
+table tbody tr:last-child td:last-child {
+  border-bottom-right-radius: 5px;
+}
+
+table {
+  margin: 40px auto;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+footer {
+  margin-top: 90dvh;
+}
